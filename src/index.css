@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* *{
+    cursor: none;
+} */
+body{
+    font-family: 'Lato', sans-serif;
+}
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
+.hover:hover > .hover-child{
+    width: 250px;
+    background: white;
+    height: 1px;
+}
+.hover:hover > .show{
+    width: 200px;
+   
+    
+    border: 1px solid white;
+    height: auto;
+
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* button {  
+    color: orange;
+    transition: 0.25s;
+    
+    &:hover,
+    &:focus { 
+      border-color: var(orange);
+      color: #fff;
+    }
+  } */
+
+  
