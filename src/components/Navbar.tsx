@@ -28,10 +28,10 @@ export default function Navbar({isAboutOnView,isContactsOnView,isMyWorksOnView}:
         </div>
       </div>
       <div className='w-[22px] fixed top-[431px] hidden lg:block left-[60px]'>
-        <img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} src={ig} alt='' />
-        <img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} className='my-6' src={gh} alt='' />
-        <img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} className='my-6' src={ln} alt='' />
-        <img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} src={up} alt='' />
+        <a href="https://www.instagram.com/binay._.shrestha/"></a><img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} src={ig} alt='' />
+        <a href="https://github.com/BinayaShrestha556"></a><img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} className='my-6' src={gh} alt='' />
+        <a href="/"></a><img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} className='my-6' src={ln} alt='' />
+        <a href="https://www.upwork.com/workwith/binayas5"></a><img onMouseEnter={()=>{setCursorSize(55); }} onMouseLeave={()=>setCursorSize(20)} src={up} alt='' />
       </div>
     </div>
   );
