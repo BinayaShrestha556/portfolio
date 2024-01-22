@@ -7,7 +7,7 @@ export default function Projects() {
   const {setCursorSize,ref2}=useContext(HoverContext)
   return (
    <div ref={ref2} className="w-full m-auto mt-20">
-    <p className="w-full   m-auto px-4 tracking-[6.4px] text-xl">PROJECTS</p>
+    <p className="w-full md:w-[90%] lg:w-[80%] xl:w-[70%] xxl:w-[60%]  m-auto px-4 tracking-[6.4px] text-xl">PROJECTS</p>
     <div className="flex md:w-[92%] flex-col xl:flex-row lg:w-[80%]  m-auto gap-8 w-full mt-8 lg:border-b pb-10 ">
       <div className="w-[98%] xl:w-[60%] xxl:w-[68%]  self-center bg-[rgb(255,81,0)] rounded-xl p-0.5">
         <img src={projectPic2} className='rounded-xl' alt="" />
