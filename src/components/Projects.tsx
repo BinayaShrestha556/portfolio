@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import projectPic1 from '../assets/Screenshot 2024-01-20 164708.png'
+
 import projectPic2 from '../assets/Screenshot 2024-01-17 192610.png'
 import AnimationComponent2 from './AnimateCompontent2';
 import { HoverContext } from '../context/everything';
