@@ -34,9 +34,9 @@ export default function Projects() {
       </div>
       
     </div>
-    <div className="flex md:w-[92%] flex-col xl:flex-row lg:w-[80%]  m-auto gap-8 w-full mt-8 lg:border-b pb-10 ">
+    {/* <div className="flex md:w-[92%] flex-col xl:flex-row lg:w-[80%]  m-auto gap-8 w-full mt-8 lg:border-b pb-10 ">
       <div className="w-[98%] xl:w-[60%] xxl:w-[68%]  self-center bg-[rgb(255,81,0)] rounded-xl p-0.5">
-        <img src={weatherapp} className='rounded-xl' alt="" />
+        <img src={weatherapp} className='rounded-xl object-cover' alt="" />
       </div>
 
       <div  onMouseEnter={()=>setCursorSize(0)} onMouseLeave={()=>setCursorSize(20)} className="w-[90%] self-center xl:self-auto  border-b xl:border-none   xl:w-[40%] py-4  ">
@@ -58,7 +58,7 @@ export default function Projects() {
         
       </div>
       
-    </div>
+    </div> */}
     <div className="mt-20 m-auto w-fit">
       <h1 className='text-3xl '>more projects to be built</h1>
     </div>
